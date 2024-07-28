@@ -16,7 +16,7 @@ from models.review import Review
 from models.user import User
 
 
-class DBStorage(Base):
+class DBStorage():
     """Database Storage"""
 
     __engine = None

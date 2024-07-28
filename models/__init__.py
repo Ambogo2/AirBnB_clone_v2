@@ -11,7 +11,7 @@ from models.amenity import Amenity
 from models.review import Review
 
 
-storage.reload()
+
 db_storage = getenv("HBNB_TYPE_STORAGE")
 if db_storage == "db":
     storage = DBStorage
