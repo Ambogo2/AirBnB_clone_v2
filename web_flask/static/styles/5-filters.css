@@ -1,0 +1,18 @@
+.filters .locations,
+.amenities {
+  height: 100%;
+  width: 25%;
+  margin-left: auto;
+}
+.locations {
+  border-right: 1px solid #dddddd;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 14px;
+}

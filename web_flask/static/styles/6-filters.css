@@ -1,0 +1,23 @@
+.popover {
+  background-color: #fafafa;
+  border: 1px solid hsl(0, 0%, 87%);
+  border-radius: 4px;
+  width: 100%;
+  top: 100%;
+  display: block;
+  visibility: hidden;
+  top: 100%;
+}
+ul li {
+  list-style: none;
+}
+.popover li {
+  padding: 0;
+  margin: 0;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+  display: block;
+  visibility: visible;
+}
